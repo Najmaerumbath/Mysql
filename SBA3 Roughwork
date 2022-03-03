@@ -1,5 +1,5 @@
 create database najmadb;
-use adidb;
+use najmadb;
 create table actor(act_id int primary key,act_fname char(20),act_lname char(20),act_gender char(1));
 desc actor;
 create table director(dir_id int primary key,dir_fname char(20),dir_lname char(20));
